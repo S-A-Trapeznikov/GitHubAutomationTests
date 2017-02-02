@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "SuiteTestAutomationGitHub" parallel = "false">
+	<test name = "Test">
+		<groups>
+			<run>
+				<include name="toRegFormLogin"/>
+				<include name="toRegFormMainHeader"/>
+				<include name="toRegFormMainBottom"/>
+				<include name="toRegFormPersonalHeader"/>
+				<include name="toRegFormPersonalBottom"/>
+				<include name="toRegFormOpenSourceHeader"/>
+				<include name="toRegFormOpenSourceBottom"/>
+				<include name="regEmptyField"/>
+				<include name="createNewAccount"/>
+				<include name="SignIn"/>				
+			</run>
+		</groups>
+	</test>
+</suite>
