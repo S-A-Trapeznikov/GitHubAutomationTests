@@ -101,14 +101,10 @@ public class GitHubAutomationTests {
 	}
 	
 	@Test(dataProvider = "dataLoginForm")
-	public void SignIn(String userName, String Password){
+	public void ableSignIn(String userName, String Password){
 			Assert.assertTrue(steps.trySignIn(userName, Password));
 	}	
-	
-	
-	
-	
-	
+		
 	@AfterTest(description = "Stop Browser")
 	public void stopBrowser(){
 		steps.closeDriver();

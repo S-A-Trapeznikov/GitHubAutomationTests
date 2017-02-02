@@ -18,7 +18,7 @@ public class OpenSourcePage extends AbstractPage {
 	private final String JOIN_GITHUB = "Join GitHub";
 	private final Logger logger = LogManager.getRootLogger();
 	
-	@FindBy(xpath = "//div[@role = 'main']/div/a")
+	@FindBy(xpath = "//div[@role = 'main']/div[1]/div/a")
 	private WebElement btnSignUpForGitHub;
 	
 	@FindBy(xpath = "//div[@class = 'pricing-card-cta']/a")
